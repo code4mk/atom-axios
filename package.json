@@ -1,75 +1,20 @@
 {
-  "_args": [
-    [
-      {
-        "raw": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-        "scope": null,
-        "escapedName": null,
-        "name": null,
-        "rawSpec": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-        "spec": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-        "type": "local"
-      },
-      "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\apm-install-dir-11777-5064-1p2gl8g.9seubx1or"
-    ]
+  "name": "atom-axios",
+  "version": "0.1.0",
+  "description": "Promise based HTTP client for the browser and node.js >> Snippet >> atom-axios by @code4mk",
+  "keywords": [
+    "axios",
+    "laravel",
+    "vue"
+    
   ],
-  "_from": "..\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-  "_id": "atom-bulma@0.7.0",
-  "_inCache": true,
-  "_location": "/atom-bulma",
-  "_phantomChildren": {},
-  "_requested": {
-    "raw": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-    "scope": null,
-    "escapedName": null,
-    "name": null,
-    "rawSpec": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-    "spec": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-    "type": "local"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code4mk/atom-axios"
   },
-  "_requiredBy": [
-    "#USER"
-  ],
-  "_resolved": "file:..\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-  "_shasum": "bff1d33c8704f35e905516d5cfab0e994e4f027b",
-  "_shrinkwrap": null,
-  "_spec": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\d-11777-5064-18zgto1.d17t2fn7b9\\package.tgz",
-  "_where": "C:\\Users\\MDCF5F~1.MOS\\AppData\\Local\\Temp\\apm-install-dir-11777-5064-1p2gl8g.9seubx1or",
-  "bugs": {
-    "url": "https://github.com/code4mk/atom-bulma/issues"
-  },
-  "dependencies": {},
-  "description": "Modern CSS framework based on Flexbox >> atom-bulma by @code4mk",
-  "devDependencies": {},
+  "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "homepage": "https://github.com/code4mk/atom-bulma#readme",
-  "keywords": [
-    "bulma",
-    "bulma css",
-    "bulma framework",
-    "bulma 0.4.0",
-    "fontawesome"
-  ],
-  "license": "MIT",
-  "name": "atom-bulma",
-  "optionalDependencies": {},
-  "readme": "# Atom Bulma 0.5.0 for Atom & Bulma Lovers\n\n<p align=\"center\" ><img src=\"https://user-images.githubusercontent.com/17185462/29004716-09255804-7aee-11e7-9555-13f55e6516f7.png\"></p>\n\nclasses and auto-completion Bulma\n\nInstall:\n```ssh\n\napm install atom-bulma\n```\n\nMian Features:\n\n  - Supports autocompletion of all helper classes in JavaScript, CSS and HTML\n  - Snippet support for all components.\n  - Autocompletion for ,\n  - Fontawesome\n\nVersion:\n\n  - bulma 0.5.0\n  - Font Awesome v4.7.0\n\n\n## Components\n\nAll components also have autocompletion support for extra options.\n\n### Bulma\n\n* [Bulma](http://bulma.io)\n\n---\n* [@code4mk](https://twitter.com/code4mk) // ~  [Hello Laravel](https://twitter.com/hellolaravelbd)\n",
-  "readmeFilename": "README.md",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/code4mk/atom-bulma.git"
-  },
-  "version": "0.7.0",
-  "_atomModuleCache": {
-    "version": 1,
-    "dependencies": [],
-    "extensions": {
-      ".json": [
-        "package.json"
-      ]
-    },
-    "folders": []
-  }
+  "dependencies": {}
 }
