@@ -4,10 +4,10 @@
     'prefix': 'ax-g',
     'body': """
     axios.get('/user?ID=12345')
-      .then(response=>{
+      .then(function (response){
         // Getting Data from response
       })
-      .catch(error=>{
+      .catch(function (error){
         console.log(error);
       });
     """
@@ -20,10 +20,10 @@
         ID: 12345,
       }
     })
-      .then(response=>{
+      .then(function (response){
        //Getting data from response
       })
-      .catch(error=>{
+      .catch( function (error){
         console.log(error);
       });
     """
@@ -41,7 +41,7 @@
   'axios->.then':
     'prefix': 'ax-then',
     'body': """
-    .then(response=>{
+    .then(function (response){
      //Getting data from response
     })
     """
@@ -49,7 +49,7 @@
   'axios->.catch':
     'prefix': 'ax-catch',
     'body': """
-    .catch(error=>{
+    .catch(function (error){
       console.log(error)
     })
     """
@@ -61,10 +61,10 @@
       firstName: 'code4mk',
       lastName: 'Hello-laravel'
     })
-      .then(response=>{
+      .then(function (response){
        //Getting data from response
       })
-      .catch(error=>{
+      .catch( function (error){
         // Describe error!
       });
     """
