@@ -85,3 +85,9 @@
         // Both requests are now complete
       }));
     """
+
+  'bind this (issue)->.catch':
+    'prefix': 'ax-bind',
+    'body': """
+    bind(this)
+    """

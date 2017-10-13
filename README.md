@@ -29,6 +29,7 @@ Version:
 | ax-get | axios only get |
 | ax-then | axios only then |
 | ax-catch | axios only catch |
+| ax-bind | `this` issue solve by bind |
 
 # ax-g
 
@@ -87,6 +88,18 @@ axios.post('/user',{
   })
   .catch( function (error){
     // Describe error!
+  });
+```
+
+# issue if can't access by `this` . follow this
+
+```js
+axios.get('/user?ID=12345')
+  .then(function (response){
+    // Getting Data from response
+  }.bind(this))
+  .catch(function (error){
+    console.log(error);
   });
 ```
 
