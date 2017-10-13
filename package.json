@@ -1,6 +1,6 @@
 {
   "name": "atom-axios",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Promise based HTTP client for the browser and node.js >> Snippet >> atom-axios by @code4mk",
   "keywords": [
     "axios",
